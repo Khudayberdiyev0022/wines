@@ -1,0 +1,80 @@
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(235, 235, 235);
+}
+
+.main .title {
+    width: 100%;
+    height: 100%;
+    padding: 70px 0px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.title h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Cinzel";
+    margin: 0;
+}
+
+.title a {
+    color: #930077;
+    text-decoration: none;
+}
+
+.title svg {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.cards_block {
+    width: 90%;
+    height: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards_box {
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.cards_box img {
+    width: 100%;
+}
+
+.cards_box h3 {
+    font-family: "Cinzel";
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.cards_box p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.cards_box h6 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 1000px) {
+    .cards_block {
+        flex-direction: column;
+        width: 80%;
+    }
+    .cards_box {
+        width: 100%;
+        text-align: center;
+    }
+}
